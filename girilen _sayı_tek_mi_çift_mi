@@ -1,0 +1,11 @@
+int main()
+{
+    int number;
+
+    printf("Bir tamsayı girin: ");
+    scanf("%d", &number);
+
+    (number % 2 == 0) ? printf("%d çifttir.", number) : printf("%d tektir.", number);
+
+    return 0;
+}
