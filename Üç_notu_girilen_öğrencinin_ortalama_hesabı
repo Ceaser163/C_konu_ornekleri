@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+  int main(){
+      
+      int not1,not2,not3,ortalama;
+      
+      printf("ogrencinin not ortalaması\n\n");
+      
+      printf("ogrencinin ilk notunu giriniz: ");
+      scanf("%d",&not1);
+      
+      printf("ogrencinin ikinci notunu giriniz: ");
+      scanf("%d",&not2);
+      
+      printf("ogrencinin ücüncü notunu giriniz: ");
+      scanf("%d",&not3);
+      
+      ortalama=(not1+not2+not3)/3;
+      
+      printf("ogrencinin not ortalamasi: %d",ortalama);
+      
+       return 0;
+      }
