@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+  int main(){
+      
+      printf("ondalıklı kenarlara sahip dikdortgenin alan ve cevre hesabı\n\n");
+      
+      
+      float kisakenar,uzunkenar,alan,cevre;
+      
+      printf("kisakenarı giriniz: ");
+      scanf("%f",&kisakenar);
+      
+      printf("uzunkenarı giriniz: ");
+      scanf("%f",&uzunkenar);
+      
+      alan=(kisakenar*uzunkenar);
+      cevre=2*(kisakenar+uzunkenar);
+      
+      printf("Dikdortgenin alani: %f \n",alan);
+      printf("Dikdortgenin cevresi: %f",cevre);
+      
+
+      return 0;
+      }
