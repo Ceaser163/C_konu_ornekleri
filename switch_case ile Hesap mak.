@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+     float sayi1,sayi2,sonuc;
+     char islem;
+     
+     printf("Bir islem seciniz\n ");
+     scanf("%c",&islem);
+	 
+	 printf("İki sayı giriniz\n ");
+     scanf("%f%f",&sayi1,&sayi2);
+     
+     switch(islem)
+     {
+     	case '+' : printf("%.2f+%.2f=%f",sayi1,sayi2,sayi1+sayi2);
+     	           break;
+     	
+		case '-' : printf("%.2f-%.2f=%f",sayi1,sayi2,sayi1-sayi2);
+				   break;
+		
+		case '*' : printf("%.2f*%.2f=%f",sayi1,sayi2,sayi1*sayi2);
+				   break;
+		
+		case '/' : printf("%.2f/%.2f=%f",sayi1,sayi2,sayi1/sayi2);
+				   break;
+		
+		default :  printf("Hatalı islem secimi,tekrar seciniz.");	   	             
+     	           break;
+     	}
+   return 0;
+}
